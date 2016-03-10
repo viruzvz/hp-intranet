@@ -1,0 +1,47 @@
+/////////////////////// VIDEO-WIDGET
+
+/////////////////////// VARIAVEIS DE CORES VIDEO-WIDGET
+@colorVideo-widget--primary: #e5ab01;
+@colorVideo-widget--default:#e2edf3;
+@colorVideo-widget--background:#ebf3f6;
+
+
+.video-widget {
+  background-color: @colorStransparente-widget--background;
+  min-height: 230px;
+}
+.video-widget--header {
+  text-align: center;
+  background-color: @colorVideo-widget--primary;
+  color: #fff;
+  margin: 0;
+  font-size: @header3;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 10px;
+    a {
+      color:#fff;
+      &:hover {
+        color: red;
+      }
+    }
+  z-index: 999;
+}
+.video-widget--caption {
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left:5px; 
+  padding-right:5px;
+  color: #666;
+  text-align: center;
+  img {
+    display: inline;
+  }
+  p {
+    text-align: left;
+  }
+}
+.video-widget-embed {
+  margin-top: -5px;
+  margin-bottom: 10px;
+}

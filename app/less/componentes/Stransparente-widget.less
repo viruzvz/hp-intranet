@@ -1,0 +1,44 @@
+/////////////////////// STRANSPARENTE-WIDGET
+
+/////////////////////// VARIAVEIS DE CORES STRANSPARENTE-WIDGET
+@colorStransparente-widget--primary: #3a8fdf;
+@colorStransparente-widget--default:#e2edf3;
+@colorStransparente-widget--background:#ebf3f6;
+
+
+.Stransparente-widget {
+  background-color: @colorStransparente-widget--background;
+  min-height: 230px;
+}
+.Stransparente-widget--header {
+  z-index: 999;
+  text-align: center;
+  background-color: @colorStransparente-widget--primary;
+  color: #fff;
+  margin: 0;
+  font-size: @header3;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 10px;
+    a {
+      color:#fff;
+      &:hover {
+        color: orange;
+      }
+    }
+}
+.Stransparente-widget--caption {
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left:5px; 
+  padding-right:5px;
+  color: #666;
+  text-align: center;
+  img {
+    display: inline;
+    margin-top: -5px;
+  }
+  p {
+    text-align: left;
+  }
+}

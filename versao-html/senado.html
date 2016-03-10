@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <title>Senado Federal</title>
+    <link href="styles/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet" type="text/css">
+    <style>
+      * {
+        font-family: 'Open Sans', sans-serif;
+      }
+    </style>
+  </head>
+  <body id="sfcss">
+    <div class="NavGlobal navbar navbar-static-top">
+      <div class="container">
+        <div class="u-sizeFitAlt"></div>
+        <div class="u-sizeFit"><a href="http://www.senado.gov.br/"><img src="http://www.senado.gov.br/inc/essencial/img/senado.svg" alt="Senado Federal" height="23" width="170"></a></div>
+        <div class="u-sizeFill text-right">
+          <div class="hidden-xs"><a href="http://www12.senado.gov.br/institucional/falecomosenado" class="flat">Sugestões para Intranet? Clique aqui.</a></div>
+        </div>
+      </div>
+    </div>
+    <div class="u-spacer--xl">
+      <div class="container">
+        <div class="PortalTopo">
+          <div class="PortalTopo-id PortalTopo-id--narrow">
+            <div class="PortalTopo-title">Intranet</div>
+          </div>
+          <div class="PortalTopo-togglers visible-xs">
+            <button data-toggle="collapse" data-target=".PortalTopo-busca" class="PortalTopo-toggler--search">
+              <div class="Icon Icon--search Icon--md"></div>
+            </button>
+            <button data-toggle="collapse" data-target="#navbar-collapse-grid" class="PortalTopo-toggler--menu">
+              <div class="Icon Icon--menu Icon--md"></div>
+            </button>
+          </div>
+          <div class="PortalTopo-tools"></div>
+          <div class="PortalTopo-busca collapse">
+            <form role="search">
+              <div class="input-group">
+                <input type="text" name="SearchableText" autocomplete="off" class="form-control">
+                <div class="input-group-btn">
+                  <button type="submit" class="btn btn-default js-mainsearch">Buscar</button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+        <div class="navbar navbar-default yamm Nav--principal">
+          <div id="navbar-collapse-grid" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="dropdown yamm-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Pessoas<span class="seta-dropdown-menu hidden-xs"></span><b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <div class="col-sm-3">
+                      <p class="title-dropdown">Senador</p>
+                      <ul class="lista-dropdown">
+                        <li><a href="#">Dados cadastrais</a></li>
+                        <li><a href="#">Dependentes</a></li>
+                        <li><a href="#">Direitos e concessões</a></li>
+                        <li><a href="#">Gabinetes e comissões</a></li>
+                        <li><a href="#">Pagamento e remuneração</a></li>
+                        <li><a href="#">Saúde e previdência</a></li>
+                        <li><a href="#">Formulários</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-sm-3">
+                      <p class="title-dropdown">Servidor Efetivo</p>
+                      <ul class="lista-dropdown">
+                        <li><a href="#">Carreira</a></li>
+                        <li><a href="#">Dados cadastrais</a></li>
+                        <li><a href="#">Dependentes</a></li>
+                        <li><a href="#">Deveres e proibições</a></li>
+                        <li><a href="#">Direitos e concessões</a></li>
+                        <li><a href="#">Movimentações</a></li>
+                        <li><a href="#">Pagamento e remuneração</a></li>
+                        <li><a href="#">Saúde e previdência</a></li>
+                        <li><a href="#">Formulários</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-sm-3">
+                      <p class="title-dropdown">Servidor Comissionado</p>
+                      <ul class="lista-dropdown">
+                        <li><a href="#">Admissão</a></li>
+                        <li><a href="#">Dados cadastrais</a></li>
+                        <li><a href="#">Dependentes</a></li>
+                        <li><a href="#">Deveres e proibições</a></li>
+                        <li><a href="#">Direitos e concessões</a></li>
+                        <li><a href="#">Movimentações</a></li>
+                        <li><a href="#">Pagamento e remuneração</a></li>
+                        <li><a href="#">Saúde e previdência</a></li>
+                        <li><a href="#">Formulários</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-sm-3">
+                      <p class="title-dropdown">Servidor Aposentado</p>
+                      <ul class="lista-dropdown">
+                        <li><a href="#">Dados cadastrais</a></li>
+                        <li><a href="#">Dependentes</a></li>
+                        <li><a href="#">Direitos e deveres</a></li>
+                        <li><a href="#">Saúde e previdência</a></li>
+                        <li><a href="#">Formulários</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-sm-3 col-sm-offset-9">
+                      <p>Outros</p>
+                      <ul class="lista-dropdown">
+                        <li><a href="#">Terceirizado (viagem)</a></li>
+                        <li><a href="#">Colaborador eventual (viagem)</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown yamm-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Saúde<span class="seta-dropdown-menu hidden-xs"></span><b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <div class="col-sm-3">
+                      <p class="title-dropdown">Plano de Saúde</p>
+                      <ul class="lista-dropdown">
+                        <li><a href="#">Rede Credenciada</a></li>
+                        <li><a href="#">Carteira provisória</a></li>
+                        <li><a href="#">Regulamento</a></li>
+                        <li><a href="#">Prestação de contas</a></li>
+                        <li><a href="#">Formulários</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-sm-4">
+                      <p class="title-dropdown">Programas</p>
+                      <ul class="lista-dropdown">
+                        <li><a href="#">Atenção ao Uso de Álcool e Drogas (Progad)</a></li>
+                        <li><a href="#">Ser Saudável</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown yamm-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Educação<span class="seta-dropdown-menu hidden-xs"></span><b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <div class="col-sm-3">
+                      <p class="title-dropdown">Cursos</p>
+                      <ul class="lista-dropdown">
+                        <li><a href="#">Cursos Online</a></li>
+                        <li><a href="#">Cursos Presenciais</a></li>
+                        <li><a href="#">Eventos Educacionais</a></li>
+                        <li><a href="#">Pós - Graduação</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-sm-3">
+                      <p class="title-dropdown">Gestão</p>
+                      <ul class="lista-dropdown">
+                        <li><a href="#">Programa Capacita</a></li>
+                        <li><a href="#">Seleção de Colaboradores</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-sm-3">
+                      <p class="title-dropdown">Informações</p>
+                      <ul class="lista-dropdown">
+                        <li><a href="#">Legislação</a></li>
+                        <li><a href="#">Perguntas Frequentes</a></li>
+                        <li><a href="#">Formulários</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-sm-3">
+                      <p class="title-dropdown">Páginas de Apoio</p>
+                      <ul class="lista-dropdown">
+                        <li><a href="#">Bases de dados externas</a></li>
+                        <li><a href="#">Biblioteca</a></li>
+                        <li><a href="#">Livraria</a></li>
+                        <li><a href="#">Publicações</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-sm-4">
+                      <p class="title-dropdown">Programas</p>
+                      <ul class="lista-dropdown">
+                        <li><a href="#">Desenvolvimento de Equipes de Trabalho</a></li>
+                        <li><a href="#">Formação Gerencial</a></li>
+                        <li><a href="#">Orientação Financeira</a></li>
+                        <li><a href="#">Preparação para Aposentadoria (PPA)      </a></li>
+                      </ul>
+                    </div>
+                    <div class="col-sm-3">
+                      <p class="title-dropdown">Solicitações</p>
+                      <ul class="lista-dropdown">
+                        <li><a href="#">Adicional de Especialização</a></li>
+                        <li><a href="#">Capacitação Externa</a></li>
+                        <li><a href="#">Horário de Estudante</a></li>
+                        <li><a href="#">Licença Capacitação     </a></li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown yamm-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Notícias<span class="seta-dropdown-menu hidden-xs"></span><b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <div class="col-sm-3">
+                      <p class="title-dropdown">Mídia interna</p>
+                      <ul class="lista-dropdown">
+                        <li><a href="#">Notícias da Intranet</a></li>
+                        <li><a href="#">Comunicados</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-sm-3">
+                      <p class="title-dropdown">Mídia Externa</p>
+                      <ul class="lista-dropdown">
+                        <li><a href="#">Diário Oficial da União</a></li>
+                        <li><a href="#">Jornais</a></li>
+                        <li><a href="#">Revistas</a></li>
+                        <li><a href="#">Senado na Mídia</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown yamm-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Administração<span class="seta-dropdown-menu hidden-xs"></span><b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <div class="col-sm-3">
+                      <p class="title-dropdown">Estrutura administrativa</p>
+                      <ul class="lista-dropdown">
+                        <li><a href="#">Fundamentação</a></li>
+                        <li><a href="#">Organograma</a></li>
+                        <li><a href="#">Diretores e Coordenadores</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-sm-3">
+                      <p class="title-dropdown">Governaça corporativa</p>
+                      <ul class="lista-dropdown">
+                        <li><a href="#">Agenda estratégica</a></li>
+                        <li><a href="#">Plano de Contratações</a></li>
+                        <li><a href="#">Escritório de Governança Corporativa</a></li>
+                        <li><a href="#">Mapa estratégico</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-sm-3">
+                      <p class="title-dropdown">Plan. Orçamentário 2016</p>
+                      <ul class="lista-dropdown">
+                        <li><a href="#">Cronograma</a></li>
+                        <li><a href="#">Manuais e modelos</a></li>
+                        <li><a href="#">Perguntas e Respostas</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-sm-3">
+                      <p class="title-dropdown">Fontes de Consulta</p>
+                      <ul class="lista-dropdown">
+                        <li><a href="#">Regulamento Administrativo</a></li>
+                        <li><a href="#">Regimento Interno</a></li>
+                        <li><a href="#">Manuais técnicos e guias</a></li>
+                        <li><a href="#">Busca no NADM</a></li>
+                        <li><a href="#">Constituição Federal</a></li>
+                        <li><a href="#">Lei 8.112/1990</a></li>
+                        <li><a href="#">Lei 12.527/2011</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-sm-3">
+                      <p class="title-dropdown">Contratações</p>
+                      <ul class="lista-dropdown">
+                        <li><a href="#">Orientações gerais PB/TR</a></li>
+                        <li><a href="#">Ato da Diretoria-Geral nº 9/2015</a></li>
+                        <li><a href="#">Relação de Objetos contratáveis</a></li>
+                        <li><a href="#">Modelos de PB/TR</a></li>
+                        <li><a href="#">Consultoria e Palestras</a></li>
+                        <li><a href="#">Perguntas e Respostas</a></li>
+                        <li><a href="#">Legislação</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-sm-3">
+                      <p class="title-dropdown">Programas</p>
+                      <ul class="lista-dropdown">
+                        <li><a href="#">Acompanhamento Funcional (PAF)</a></li>
+                        <li><a href="#">Diginidade e Respeito no Trabalho</a></li>
+                        <li><a href="#">Integrar</a></li>
+                        <li><a href="#">Pesquisa de Clima Organizacional</a></li>
+                        <li><a href="#">Pró-Equidade</a></li>
+                        <li><a href="#">Senado Verde</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content-intranet">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9">
+            <div class="row noticias">
+              <div class="col-md-8"><a href="#">
+                  <figure><img src="img/slide/senado1.jpg" alt="Matéria" class="img-responsive">
+                    <figcaption><small>15/12/2015, 10h05</small>
+                      <h1 class="noticias-header1"><strong>Senado participa de programa para a formação e a inserção de jovens no mercado de trabalho</strong></h1>
+                    </figcaption>
+                  </figure></a>
+                <div class="row">
+                  <div class="col-md-6"><a href="#">
+                      <figure><img src="img/slide/senado2.jpg" alt="Matéria" class="img-responsive">
+                        <figcaption><small>15/12/2015, 9h42</small>
+                          <h2 class="noticias-header2"><strong>Presentes do Papai Noel dos Correios podem ser entregues até a próxima segunda-feira</strong></h2>
+                        </figcaption>
+                      </figure></a></div>
+                  <div class="col-md-6"><a href="#">
+                      <figure><img src="img/slide/senado3.jpg" alt="Matéria" class="img-responsive">
+                        <figcaption><small>15/12/2015, 9h42</small>
+                          <h2 class="noticias-header2"><strong>Presentes do Papai Noel dos Correios podem ser entregues até a próxima segunda-feira</strong></h2>
+                        </figcaption>
+                      </figure></a></div>
+                </div>
+              </div>
+              <div class="col-md-4 CutHere CutHere--xl">
+                <div class="u-spacer--xl"><a href="#">
+                    <figure><img src="img/slide/senado4.jpg" alt="Matéria" class="img-responsive hide">
+                      <figcaption><small>15/12/2015, 9h42</small>
+                        <p>Presentes do Papai Noel dos Correios podem ser entregues até a próxima segunda-feira</p>
+                      </figcaption>
+                    </figure></a></div>
+                <div class="u-spacer--xl"><a href="#">
+                    <figure><img src="img/slide/senado4.jpg" alt="Matéria" class="img-responsive">
+                      <figcaption><small>15/12/2015, 9h42</small>
+                        <p>Presentes do Papai Noel dos Correios podem ser entregues até a próxima segunda-feira</p>
+                      </figcaption>
+                    </figure></a></div>
+                <div class="u-spacer--xl"><a href="#">
+                    <figure><img src="img/materia1.gif" alt="Matéria" class="img-responsive hide">
+                      <figcaption><small>15/12/2015, 9h42</small>
+                        <p>Presentes do Papai Noel dos Correios podem ser entregues até a próxima segunda-feira</p>
+                      </figcaption>
+                    </figure></a></div>
+                <div class="u-spacer--xl"><a href="#">
+                    <figure><img src="img/materia1.gif" alt="Matéria" class="img-responsive hide">
+                      <figcaption><small>15/12/2015, 9h42</small>
+                        <p>Presentes do Papai Noel dos Correios podem ser entregues até a próxima segunda-feira</p>
+                      </figcaption>
+                    </figure></a></div>
+              </div>
+            </div>
+            <div class="divisor-dotted spacer-content--lg"><a href="#">MAIS NOTÍCIAS<span class="glyphicon glyphicon-chevron-right"></span></a></div>
+            <div class="galeria-fotos spacer-content--lg">
+              <h4 class="galeria-fotos--header">Galeria de Imagens <small>• Dia do servidor</small>
+                <div class="pull-right"><a href="#" title="Ver todas" class="glyphicon glyphicon-plus"></a></div>
+              </h4>
+              <ul class="pgwSlideshow">
+                <li><img src="img/slide/senado1.jpg" alt="Nome da foto 1" class="img-responsive"></li>
+                <li><img src="img/slide/senado2.jpg" alt="Nome da foto 2" class="img-responsive"></li>
+                <li><img src="img/slide/senado3.jpg" alt="Nome da foto 3" class="img-responsive"></li>
+                <li><img src="img/slide/senado4.jpg" alt="Nome da foto 4" class="img-responsive"></li>
+                <li><img src="img/slide/senado5.jpg" alt="Nome da foto 5" class="img-responsive"></li>
+                <li><img src="img/slide/senado6.jpg" alt="Nome da foto 6" class="img-responsive"></li>
+                <li><img src="img/slide/senado7.jpg" alt="Nome da foto 7" class="img-responsive"></li>
+                <li><img src="img/slide/senado8.jpg" alt="Nome da foto 8" class="img-responsive"></li>
+                <li><img src="img/slide/senado9.jpg" alt="Nome da foto 9" class="img-responsive"></li>
+                <li><img src="img/slide/senado10.jpg" alt="Nome da foto 10" class="img-responsive"></li>
+                <li><img src="img/slide/senado11.jpg" alt="Nome da foto 11" class="img-responsive"></li>
+                <li><a href="http://en.wikipedia.org/wiki/Monaco" target="_blank"><img src="img/slide/senado12.jpg" alt="Nome da foto 12" class="img-responsive"></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div id="carousel-widget" data-ride="carousel" class="carousel slide spacer-widgets--lg"> 
+              <h3 class="carousel-widget--header">COMUNICADOS</h3>
+              <ol class="carousel-indicators carousel-widget--indicators">
+                <li data-target="#carousel-widget" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-widget" data-slide-to="1"></li>
+                <li data-target="#carousel-widget" data-slide-to="2"></li>
+              </ol>
+              <!-- Wrapper for slides-->
+              <div role="listbox" class="carousel-inner carousel-widget--inner">
+                <div class="item active">
+                  <p class="carousel-widget--date"><small>03/03/2016, quinta-feira</small></p>
+                  <div class="carousel-caption carousel-widget--caption"><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore </a></div>
+                </div>
+                <div class="item">
+                  <p class="carousel-widget--date"><small>03/03/2016, quinta-feira</small></p>
+                  <div class="carousel-caption carousel-widget--caption"><a href="#">bbbbbbbb</a></div>
+                </div>
+                <div class="item">
+                  <p class="carousel-widget--date"><small>03/03/2016, quinta-feira</small></p>
+                  <div class="carousel-caption carousel-widget--caption"><a href="#">cccccccc</a></div>
+                </div>
+              </div>
+            </div>
+            <div class="agenda-widget spacer-widgets--lg">
+              <h3 class="agenda-widget--header">AGENDA</h3>
+              <p class="agenda-widget--date"><small>03/03/2016, quinta-feira</small></p>
+              <div class="agenda-widget--caption">
+                <div class="nano">
+                  <div class="nano-content">
+                    <ul class="agenda-widget--item">
+                      <li><a href="#">No começo do século passado, o Brasil assistia a uma caçada inédita e implacável ao Aedes aegypti. </a>
+                        <p><small>Horário: 19h</small></p>
+                        <p><small>Local: Petronio Portella</small></p>
+                      </li>
+                      <li><a href="#">O Plenário foi palco de intenso debate entre senadores da oposição e da base do governo sobre o depoimento do ex-presidente Lula à Operação Lava Jato, na última sexta (4).</a>
+                        <p><small>Horário: 2h</small></p>
+                        <p><small>Local: Petronio Portella</small></p>
+                      </li>
+                      <li><a href="#">O senador Ricardo Ferraço apresentou nesta terça (8), na Comissão de Assuntos Econômicos, substitutivo a proposta que visa tornar mais realista o Orçamento da União.</a>
+                        <p><small>Horário: 9h</small></p>
+                        <p><small>Local: Petronio Portella</small></p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="agenda-widget--footer text-right"><a href="#">AGENDA INSTITUCIONAL<span class="glyphicon glyphicon-chevron-right"></span></a></div>
+            </div>
+            <div class="Stransparente-widget spacer-widgets--lg">
+              <h3 class="Stransparente-widget--header">SENADO TRANSPARENTE<a href="#" title="Veja mais"><span class="pull-right glyphicon glyphicon-plus"></span></a></h3>
+              <div class="Stransparente-widget--caption"><a href="#"><img src="img/slide/senado5.jpg" alt="Senado Transparente" class="img-responsive"></a>
+                <p>Senado começa a implantar seu plano de gestão sustentável</p>
+              </div>
+            </div>
+            <div class="video-widget spacer-widgets--lg">
+              <h3 class="video-widget--header">VÍDEOS<a href="#" title="Veja mais"><span class="pull-right glyphicon glyphicon-plus"></span></a></h3>
+              <div class="video-widget--caption">
+                <div class="embed-responsive embed-responsive-16by9 video-widget-embed">
+                  <iframe src="https://www.youtube.com/embed/lIX0Bxgx4E0" class="embed-responsive-item"></iframe>
+                </div>
+                <p>Conheça as cordenações de pesquisa e informações legislativas</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <input id="toggle-menu" type="checkbox" class="hidden">
+        <div class="sidebar-intranet--content sidebar-intranet">
+          <div class="content-topo">
+            <label for="toggle-menu">
+              <spam class="glyphicon glyphicon-backward"></spam>
+            </label>
+          </div>
+          <div class="nano nano-intranet--sidebar">
+            <div class="nano-content">
+              <div class="content-menu">
+                <ul class="content-links">
+                  <li class="add-color1"><a href="#" class="link-slyes"> <img src="img/sidebar-intranet/central-servicos.svg" alt="CENTRAL DE SERVIÇOS">CENTRAL DE SERVIÇOS ADMINISTRATIVOS</a></li>
+                  <li class="add-color2"><a href="#" class="link-slyes"> <img src="img/sidebar-intranet/central-legislativa.svg" alt="CENTRAL LEGISLATIVA E PARLAMENTAR">CENTRAL LEGISLATIVA E PARLAMENTAR</a></li>
+                  <li class="add-color3"><a href="#" class="link-slyes"> <img src="img/sidebar-intranet/ferramentas.svg" alt="FERRAMENTAS">FERRAMENTAS</a></li>
+                </ul>
+                <ul class="content-apps">
+                  <li><a href="#" title="BASF" class="link-styles--svg"><img src="img/sidebar-intranet/basf.svg" alt="BASF"></a></li>
+                  <li><a href="#" title="Ergon" class="link-styles--svg"><img src="img/sidebar-intranet/ergon.svg" alt="Ergon"></a></li>
+                  <li><a href="#" title="ForPonto" class="link-styles--svg"><img src="img/sidebar-intranet/forponto.svg" alt="ForPonto"></a></li>
+                  <li><a href="#" title="SIGAD" class="link-styles--svg"><img src="img/sidebar-intranet/sigad.svg" alt="SIGAD"></a></li>
+                </ul>
+                <ul class="content-apps--noicons">
+                  <li><a href="#" alt="SPALM" class="link-slyes">SPALM </a></li>
+                  <li><a href="#" alt="WEBMAIL" class="link-slyes">WEBMAIL</a></li>
+                  <li><a href="#" alt="NADM" class="link-slyes">NADM</a></li>
+                  <li><a href="#" alt="GALILEU" class="link-slyes">GALILEU</a></li>
+                  <li><a href="#" alt="ARQUIMEDES 2.0" class="link-slyes">ARQUIMEDES 2.0</a></li>
+                  <li><a href="#" alt="PORTAL DO GESTOR" class="link-slyes">PORTAL DO GESTOR</a></li>
+                  <li><a href="#" alt="CAPACITADA" class="link-slyes">CAPACITADA</a></li>
+                  <li><a href="#" alt="ERGON PRODUÇÃO" class="link-slyes">ERGON PRODUÇÃO</a></li>
+                  <li><a href="#" alt="SISTEMA GEP" class="link-slyes">SISTEMA GEP</a></li>
+                  <li><a href="#" alt="GESCON" class="link-slyes">GESCON</a></li>
+                  <li><a href="#" alt="GESTÃO DE AQUISIÇÃO" class="link-slyes">GESTÃO DE AQUISIÇÃO</a></li>
+                  <li><a href="#" alt="PLANOR" class="link-slyes">PLANOR</a></li>
+                  <li><a href="#" alt="SAES" class="link-slyes">SAES</a></li>
+                  <li><a href="#" alt="SERVIÇOS GERAIS" class="link-slyes">SERVIÇOS GERAIS</a></li>
+                  <li><a href="#" alt="SERVIÇOS POSTAIS" class="link-slyes">SERVIÇOS POSTAIS</a></li>
+                  <li><a href="#" alt="SUPRI" class="link-slyes">SUPRI</a></li>
+                </ul>
+              </div>
+              <div class="content-menu--styled">
+                <p class="content-menu--title"> <img src="img/sidebar-intranet/interessantes.svg" alt="SERVIÇOS">SERVIÇOS</p>
+                <ul class="content-list">
+                  <li class="style-color1"><a href="#" class="link-slyes"> <img src="img/sidebar-intranet/cardapios.svg" alt="Cardápios">Cardápios</a></li>
+                  <li class="style-color2"><a href="#" class="link-slyes"> <img src="img/sidebar-intranet/aniversariantes.svg" alt="Aniversários">Aniversários</a></li>
+                  <li class="style-color1"><a href="#" class="link-slyes"> <img src="img/sidebar-intranet/senado-em-pessoa.svg" alt="Senado em pessoa">Senado em Pessoa</a></li>
+                  <li class="style-color2"><a href="#" class="link-slyes"> <img src="img/sidebar-intranet/talentos-oportunidade.svg" alt="talentos e Oportunidades">Talentos e Oportunidades</a></li>
+                  <li class="style-color1"><a href="#" class="link-slyes"> <img src="img/sidebar-intranet/pagamentos-e-feriados.svg" alt="Pagamentos e Feriados">Pagamentos e Feriados</a></li>
+                </ul>
+              </div>
+              <div class="content-menu--styled01">
+                <p class="content-menu--title"> <img src="img/sidebar-intranet/classificados.svg" alt="CLASSIFICADOS">CLASSIFICADOS</p>
+                <p>
+                  <div class="input-group fix-content--padding">
+                    <input type="text" name="SearchableText" autocomplete="off" class="form-control">
+                    <div class="input-group-btn">
+                      <button type="submit" class="btn btn-default">Buscar</button>
+                    </div>
+                  </div>
+                </p>
+                <ul class="content-apps--noicons">
+                  <li><a href="#" alt="AUTOMÓVEIS" class="link-slyes">AUTOMÓVEIS </a></li>
+                  <li><a href="#" alt="IMÓVEIS - VENDA" class="link-slyes">IMÓVEIS - VENDA</a></li>
+                  <li><a href="#" alt="IMÓVEIS-ALUGUEL" class="link-slyes">IMÓVEIS-ALUGUEL</a></li>
+                  <li><a href="#" alt="ELETRÔNICOS" class="link-slyes">ELETRÔNICOS</a></li>
+                  <li><a href="#" alt="TROCAS" class="link-slyes">TROCAS</a></li>
+                  <li><a href="#" alt="OUTROS" class="link-slyes">OUTROS</a></li>
+                </ul>
+                <div class="text-center content--anuncie"><a href="#" class="link-slyes">Anuncie!</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sidebar-intranet--resumed sidebar-intranet hidden-sm hidden-xs">
+          <div class="content-topo">
+            <label for="toggle-menu">
+              <spam class="glyphicon glyphicon-forward"></spam>
+            </label>
+          </div>
+          <div class="content-menu">
+            <ul class="content-links">
+              <li class="add-color1"><a href="#" class="link-slyes"> <img src="img/sidebar-intranet/central-servicos.svg" alt="CENTRAL DE SERVIÇOS"></a>
+                <ul class="content-links--sub">
+                  <li class="add-color1"><a href="#" class="content-links--sublinks">CENTRAL DE SERVIÇOS ADMINISTRATIVOS</a></li>
+                </ul>
+              </li>
+              <li class="add-color2"><a href="#" class="link-slyes"> <img src="img/sidebar-intranet/central-legislativa.svg" alt="CENTRAL LEGISLATIVA E PARLAMENTAR"></a>
+                <ul class="content-links--sub before-color2">
+                  <li class="add-color2"><a href="#" class="content-links--sublinks">CENTRAL LEGISLATIVA E PARLAMENTAR</a></li>
+                </ul>
+              </li>
+              <li class="add-color3"><a href="#" class="link-slyes"> <img src="img/sidebar-intranet/ferramentas.svg" alt="FERRAMENTAS"></a>
+                <ul class="content-links--sub before-color3">
+                  <li class="add-color3">
+                    <p class="content-links--sublinks">FERRAMENTAS</p>
+                    <ul class="content-apps">
+                      <li><a href="#" title="BASF" class="link-styles--svg"><img src="img/sidebar-intranet/basf.svg" alt="BASF"></a></li>
+                      <li><a href="#" title="Ergon" class="link-styles--svg"><img src="img/sidebar-intranet/ergon.svg" alt="Ergon"></a></li>
+                      <li><a href="#" title="ForPonto" class="link-styles--svg"><img src="img/sidebar-intranet/forponto.svg" alt="ForPonto"></a></li>
+                      <li><a href="#" title="SIGAD" class="link-styles--svg"><img src="img/sidebar-intranet/sigad.svg" alt="SIGAD"></a></li>
+                    </ul>
+                    <ul class="content-apps--noicons fix-content--padding">
+                      <li><a href="#" alt="SPALM" class="link-slyes">SPALM </a></li>
+                      <li><a href="#" alt="WEBMAIL" class="link-slyes">WEBMAIL</a></li>
+                      <li><a href="#" alt="NADM" class="link-slyes">NADM</a></li>
+                      <li><a href="#" alt="GALILEU" class="link-slyes">GALILEU</a></li>
+                      <li><a href="#" alt="ARQUIMEDES 2.0" class="link-slyes">ARQUIMEDES 2.0</a></li>
+                      <li><a href="#" alt="PORTAL DO GESTOR" class="link-slyes">PORTAL DO GESTOR</a></li>
+                      <li><a href="#" alt="CAPACITADA" class="link-slyes">CAPACITADA</a></li>
+                      <li><a href="#" alt="ERGON PRODUÇÃO" class="link-slyes">ERGON PRODUÇÃO</a></li>
+                      <li><a href="#" alt="SISTEMA GEP" class="link-slyes">SISTEMA GEP</a></li>
+                      <li><a href="#" alt="GESCON" class="link-slyes">GESCON</a></li>
+                      <li><a href="#" alt="GESTÃO DE AQUISIÇÃO" class="link-slyes">GESTÃO DE AQUISIÇÃO</a></li>
+                      <li><a href="#" alt="PLANOR" class="link-slyes">PLANOR</a></li>
+                      <li><a href="#" alt="SAES" class="link-slyes">SAES</a></li>
+                      <li><a href="#" alt="SERVIÇOS GERAIS" class="link-slyes">SERVIÇOS GERAIS</a></li>
+                      <li><a href="#" alt="SERVIÇOS POSTAIS" class="link-slyes">SERVIÇOS POSTAIS</a></li>
+                      <li><a href="#" alt="SUPRI" class="link-slyes">SUPRI</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="content-apps--resumed">
+              <li><a href="#" title="BASF"><img src="img/sidebar-intranet/basf.svg" alt="BASF"></a></li>
+              <li><a href="#" title="Ergon"><img src="img/sidebar-intranet/ergon.svg" alt="Ergon"></a></li>
+              <li><a href="#" title="ForPonto"><img src="img/sidebar-intranet/forponto.svg" alt="ForPonto"></a></li>
+              <li><a href="#" title="SIGAD"><img src="img/sidebar-intranet/sigad.svg" alt="SIGAD"></a></li>
+            </ul>
+          </div>
+          <div class="content-menu">
+            <ul class="content-links">
+              <li class="add-color4"><a href="#" class="link-slyes"> <img src="img/sidebar-intranet/interessantes.svg" alt="SERVIÇOS"></a>
+                <ul class="content-links--sub before-color4">
+                  <li class="add-color4 fix-content--padding">
+                    <p class="content-links--sublinks">SERVIÇOS</p>
+                    <ul class="content-apps--noicons">
+                      <li><a href="#" alt="Cardápios" class="link-slyes">Cardápios </a></li>
+                      <li><a href="#" alt="Aniversários" class="link-slyes">Aniversários</a></li>
+                      <li><a href="#" alt="Senado em Pessoa" class="link-slyes">Senado em Pessoa</a></li>
+                      <li><a href="#" alt="Talentos e Oportunidades" class="link-slyes">Talentos e Oportunidades</a></li>
+                      <li><a href="#" alt="Pagamentos e Feriados" class="link-slyes">Pagamentos e Feriados</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="content-menu">
+            <ul class="content-links">
+              <li class="add-color5"><a href="#" class="link-slyes"> <img src="img/sidebar-intranet/classificados.svg" alt="CLASSIFICADOS"></a>
+                <ul class="content-links--sub before-color5">
+                  <li class="add-color5 fix-content--padding">
+                    <p class="content-links--sublinks">CLASSIFICADOS</p>
+                    <ul class="content-apps--noicons">
+                      <li><a href="#" alt="AUTOMÓVEIS" class="link-slyes">AUTOMÓVEIS </a></li>
+                      <li><a href="#" alt="IMÓVEIS - ALUGUEL" class="link-slyes">IMÓVEIS - ALUGUEL</a></li>
+                      <li><a href="#" alt="ELETRÔNICOS" class="link-slyes">ELETRÔNICOS</a></li>
+                      <li><a href="#" alt="IMÓVEIS - VENDA" class="link-slyes">IMÓVEIS - VENDA</a></li>
+                      <li><a href="#" alt="TROCAS" class="link-slyes">TROCAS</a></li>
+                      <li><a href="#" alt="OUTROS" class="link-slyes">OUTROS</a></li>
+                    </ul>
+                    <div class="input-group">
+                      <input type="text" name="SearchableText" autocomplete="off" class="form-control">
+                      <div class="input-group-btn">
+                        <button type="submit" class="btn btn-default">Buscar</button>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="sidebar-intranet--query sidebar-intranet visible-sm visible-xs">
+        <div class="content-topo hide">
+          <label for="toggle-menu">
+            <spam class="glyphicon glyphicon-forward"></spam>
+          </label>
+        </div>
+        <div class="content-menu">
+          <ul class="content-links">
+            <li class="add-color1"><a href="#" class="link-slyes"> <img src="img/sidebar-intranet/central-servicos.svg" alt="CENTRAL DE SERVIÇOS"></a></li>
+            <li class="add-color2"><a href="#" class="link-slyes"> <img src="img/sidebar-intranet/central-legislativa.svg" alt="CENTRAL LEGISLATIVA E PARLAMENTAR"></a></li>
+            <li class="add-color3"><a href="#" class="link-slyes"> <img src="img/sidebar-intranet/ferramentas.svg" alt="FERRAMENTAS"></a></li>
+            <li class="add-color4"><a href="#" class="link-slyes"> <img src="img/sidebar-intranet/interessantes.svg" alt="SERVIÇOS"></a></li>
+            <li class="add-color5"><a href="#" class="link-slyes"> <img src="img/sidebar-intranet/classificados.svg" alt="CLASSIFICADOS"></a></li>
+            <li><a href="#" class="link-slyes"> 
+                <label for="toggle-menu"><img src="img/sidebar-intranet/hamburger.svg" alt="Menu completo"></label></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="FooterMain">
+      <div class="container">
+        <div class="FooterMain-row">
+          <div class="FooterMain-section">
+            <dl class="FooterMain-list">
+              <dt>Centrais de atendimento</dt>
+              <dd class="FooterMain-link u-linkClean">Gestao de Pessoas<span class="pull-right">1000</span></dd>
+              <dd class="FooterMain-link u-linkClean">Prodasen<span class="pull-right">2000</span></dd>
+              <dd class="FooterMain-link u-linkClean">Presidência<span class="pull-right">3000</span></dd>
+              <dd class="FooterMain-link u-linkClean">DGER<span class="pull-right">4000</span></dd>
+              <dd class="FooterMain-link u-linkClean">Brigadistas<span class="pull-right">4222</span></dd>
+              <dd class="FooterMain-link u-linkClean">Polícias<span class="pull-right">4444</span></dd>
+              <dd class="FooterMain-link u-linkClean">SIS<span class="pull-right">5000</span></dd>
+              <dd class="FooterMain-link u-linkClean">Cootele<span class="pull-right">7000</span></dd>
+              <dd class="FooterMain-link u-linkClean">Busca Ramais<span class="pull-right">9000</span></dd>
+              <dd class="FooterMain-link u-linkClean">Lanchonete<span class="pull-right">9090</span></dd>
+            </dl>
+          </div>
+          <div class="FooterMain-section">
+            <dl class="FooterMain-list">
+              <dt>Links úteis</dt>
+              <dd><a href="#" class="FooterMain-link u-linkClean">Cardápios</a></dd>
+              <dd><a href="#" class="FooterMain-link u-linkClean">Senado em Pessoa</a></dd>
+              <dd><a href="#" class="FooterMain-link u-linkClean">Talentos e Oportunidades</a></dd>
+              <dd><a href="#" class="FooterMain-link u-linkClean">Pagamentos e Feriados</a></dd>
+            </dl>
+          </div>
+          <div class="FooterMain-section">
+            <dl class="FooterMain-list">
+              <dt>Informações</dt>
+              <dd><a href="#" class="FooterMain-link u-linkClean">Formulários</a></dd>
+              <dd><a href="#" class="FooterMain-link u-linkClean">Carteira do SIS</a></dd>
+              <dd><a href="#" class="FooterMain-link u-linkClean">Adicional de Especialização</a></dd>
+              <dd><a href="#" class="FooterMain-link u-linkClean">Licença Capacitação</a></dd>
+            </dl>
+          </div>
+        </div>
+      </div>
+      <div class="FooterMain-endereco">
+        Senado Federal -
+        Praça dos Três Poderes - Brasília DF - CEP 70165-900
+        | Telefone: 0800 61 22 11
+      </div>
+    </div>
+    <script src="scripts/jquery.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/pgwslideshow.js"> </script>
+    <script src="scripts/jquery.nanoscroller.min.js"> </script>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>

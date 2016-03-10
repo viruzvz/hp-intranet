@@ -1,0 +1,62 @@
+/////////////////////// AGENDA-WIDGET
+
+/////////////////////// VARIAVEIS DE CORES AGENDA-WIDGET
+@colorAgenda-widget--primary: #e57e22;
+@colorAgenda-widget--default:#e2edf3;
+@colorAgenda-widget--background:#ebf3f6;
+
+.agenda-widget {
+  background-color: @colorAgenda-widget--background;
+}
+.agenda-widget--date {
+    background-color: @colorAgenda-widget--default;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    border-bottom: 1px solid #fff;
+      small {
+        color:@colorAgenda-widget--primary;
+      }
+  }
+.agenda-widget--caption {
+  background-color: @colorAgenda-widget--background;
+  height: 250px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left:5px; 
+  padding-right:5px;
+  margin-bottom: 15px;
+  color: #666;
+}
+.agenda-widget--header {
+  text-align: center;
+  background-color: @colorAgenda-widget--primary;
+  color: #fff;
+  margin: 0;
+  font-size: @header3;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+.agenda-widget--item {
+  padding-left: 0;
+    li {
+      list-style: none;
+      margin-bottom: 15px;
+      margin-top: 0;
+    }
+    p {
+      margin: 0;
+    }
+    a {
+      color: @colorAgenda-widget--primary;
+    }
+}
+.agenda-widget--footer {
+  background-color: @colorAgenda-widget--default;
+  padding: 5px;
+  font-size: 12px;
+   a {
+      color: @colorAgenda-widget--primary;
+   }
+}

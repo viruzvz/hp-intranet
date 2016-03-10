@@ -1,0 +1,48 @@
+////////////// GALERIA FOTOS
+.galeria-fotos {
+  ul {
+    padding-left: 0;
+  }
+  .pgwSlideshow {
+    .ps-list {
+      background-color: #ebf3f6;
+      box-shadow: none;
+      border-top: none;
+    }
+    .ps-caption {
+      background-color: #bdd7e4;
+      color: #003362;
+      font-size: 12px;
+    }
+  }
+}
+.galeria-fotos--header {
+  background-color: #ebf3f6;
+  color:#003362;
+  margin: 0;
+  padding: 15px 10px;
+}
+
+.ps-nextIcon, .ps-prevIcon {
+    border-color: transparent !important;
+    border-style: inherit !important;
+    border-width: inherit !important;
+    position: relative;
+    top: 1px;
+    display: inline-block !important;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    color: #fff;
+    &:after {
+      content:"\e080";
+      font-size: 20px;
+    }
+}
+.ps-prevIcon {
+  &:after {
+    content: "\e079";
+  }
+}

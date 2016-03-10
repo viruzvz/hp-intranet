@@ -1,0 +1,125 @@
+/*!
+ * Yamm!3 - Yet another megamenu for Bootstrap 3
+ * http://geedmo.github.com/yamm3
+ * 
+ * @geedmo - Licensed under the MIT license
+ */
+
+//-----------------------------
+//  Yamm Styles
+//-----------------------------
+
+.yamm {
+    z-index: 30000;
+    border-top: transparent; 
+  // reset positions 
+  .nav, .collapse, .dropup, .dropdown {
+    position: static;
+  }  
+
+  // propagate menu position under container for fw navbars
+  .container {
+    position: relative;
+  }
+
+  // by default aligns menu to left
+  .dropdown-menu {
+    left: auto;
+  }
+  
+  // Content with padding 
+  .yamm-content {
+    padding: 20px 30px;
+  }
+
+  // Fullwidth menu
+  .dropdown.yamm-fw .dropdown-menu {
+    left: 0; right: 0;
+  }
+
+}
+///////// Acrecimos para intranet
+.dropdown-toggle {
+  color: #3e6892;
+}
+.title-dropdown {
+  font-size:16px;
+  border-bottom: 1px solid #ccc;
+  padding: 5px 0;
+  color: #666;
+}
+.lista-dropdown {
+  padding-left:0;
+  margin-bottom: 20px;
+   li {
+      list-style: none;
+      a {
+        display: block;
+        padding: 10px 0;
+        border-bottom: 1px dotted #ccc;
+        &:hover{
+          background-color: #f1f1f1;
+        }
+        &:before {
+          content:"»";
+          padding-right: 8px;
+        }
+      }
+   }
+}
+
+/* Ajustes para seta em submenu principal */
+.seta-dropdown-menu { 
+  content: '';
+  display: none; 
+  z-index: 1010; 
+  position: relative; 
+  background: #f7f7f7; 
+  top: 36px;
+  right: -20px;
+  float: left;
+ } 
+.seta-dropdown-menu:after, 
+.seta-dropdown-menu:before { 
+  bottom: 100%; 
+  left: 50%; 
+  border: solid transparent; 
+  content: " "; 
+  height: 0; 
+  width: 0; 
+  position: absolute; 
+  pointer-events: none; 
+} 
+.seta-dropdown-menu:after { 
+  border-color: rgba(245, 245, 245, 0); 
+  border-bottom-color: #f7f7f7; 
+  border-width: 10px; 
+  margin-left: -10px; 
+} 
+.seta-dropdown-menu:before { 
+  border-color: rgba(245, 245, 245, 0); 
+  border-bottom-color: #ccc; 
+  border-width: 11px; 
+  margin-left: -11px; 
+}
+li.dropdown.open > a > span.seta-dropdown-menu{ 
+  /* Exibe seta em submenu aberto */
+  display: block; 
+}
+
+
+/* Grid demo styles */
+.grid-demo {
+  padding: 10px 30px;
+}
+
+  .grid-demo [class*="col-"] {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 1em;
+    text-align: center;
+    line-height: 2;
+    background-color: #e5e1ea;
+    border: 1px solid #d1d1d1;
+  }
+

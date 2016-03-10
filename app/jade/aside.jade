@@ -1,0 +1,64 @@
+#carousel-widget.carousel.slide.spacer-widgets--lg(data-ride='carousel') 
+  h3.carousel-widget--header COMUNICADOS
+  ol.carousel-indicators.carousel-widget--indicators
+    li.active(data-target='#carousel-widget', data-slide-to='0')
+    li(data-target='#carousel-widget', data-slide-to='1')
+    li(data-target='#carousel-widget', data-slide-to='2')
+  // Wrapper for slides
+  .carousel-inner.carousel-widget--inner(role='listbox')
+    .item.active
+      p.carousel-widget--date: small 03/03/2016, quinta-feira
+      .carousel-caption.carousel-widget--caption
+        a(href="#") Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore 
+    .item
+      p.carousel-widget--date: small 03/03/2016, quinta-feira
+      .carousel-caption.carousel-widget--caption
+        a(href="#") bbbbbbbb
+    .item
+      p.carousel-widget--date: small 03/03/2016, quinta-feira
+      .carousel-caption.carousel-widget--caption
+        a(href="#") cccccccc
+
+  
+
+.agenda-widget.spacer-widgets--lg
+  h3.agenda-widget--header AGENDA
+  p.agenda-widget--date: small 03/03/2016, quinta-feira
+  .agenda-widget--caption
+    .nano
+      .nano-content
+        ul.agenda-widget--item
+          li
+            a(href="#") No começo do século passado, o Brasil assistia a uma caçada inédita e implacável ao Aedes aegypti. 
+            p: small Horário: 19h
+            p: small Local: Petronio Portella
+          li
+            a(href="#") O Plenário foi palco de intenso debate entre senadores da oposição e da base do governo sobre o depoimento do ex-presidente Lula à Operação Lava Jato, na última sexta (4).
+            p: small Horário: 2h
+            p: small Local: Petronio Portella
+          li
+            a(href="#") O senador Ricardo Ferraço apresentou nesta terça (8), na Comissão de Assuntos Econômicos, substitutivo a proposta que visa tornar mais realista o Orçamento da União.
+            p: small Horário: 9h
+            p: small Local: Petronio Portella
+  .agenda-widget--footer.text-right
+    a(href="#") AGENDA INSTITUCIONAL
+      span.glyphicon.glyphicon-chevron-right
+
+
+
+.Stransparente-widget.spacer-widgets--lg
+  h3.Stransparente-widget--header SENADO TRANSPARENTE
+    a(href="#" title="Veja mais"): span.pull-right.glyphicon.glyphicon-plus
+  .Stransparente-widget--caption
+    a(href="#"): img.img-responsive(src="img/slide/senado5.jpg" alt="Senado Transparente")
+    p Senado começa a implantar seu plano de gestão sustentável
+
+
+
+.video-widget.spacer-widgets--lg
+  h3.video-widget--header VÍDEOS
+    a(href="#" title="Veja mais"): span.pull-right.glyphicon.glyphicon-plus
+  .video-widget--caption
+    .embed-responsive.embed-responsive-16by9.video-widget-embed
+      iframe.embed-responsive-item(src='https://www.youtube.com/embed/lIX0Bxgx4E0')
+    p Conheça as cordenações de pesquisa e informações legislativas

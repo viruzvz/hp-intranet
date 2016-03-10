@@ -1,0 +1,223 @@
+.container
+
+  .PortalTopo
+
+    .PortalTopo-id.PortalTopo-id--narrow
+      .PortalTopo-title
+        | Intranet
+
+    .PortalTopo-togglers.visible-xs
+      button.PortalTopo-toggler--search(data-toggle='collapse', data-target='.PortalTopo-busca')
+        .Icon.Icon--search.Icon--md
+      button.PortalTopo-toggler--menu(data-toggle='collapse', data-target='#navbar-collapse-grid')
+        .Icon.Icon--menu.Icon--md
+
+    .PortalTopo-tools
+
+    .PortalTopo-busca.collapse
+      form(role='search')
+        .input-group
+          input.form-control(type='text', name='SearchableText', autocomplete='off')
+          .input-group-btn
+            button.btn.btn-default.js-mainsearch(type='submit') Buscar
+
+    .clearfix
+
+  .navbar.navbar-default.yamm.Nav--principal
+    #navbar-collapse-grid.navbar-collapse.collapse
+      ul.nav.navbar-nav
+        li.dropdown.yamm-fw
+          a.dropdown-toggle(href='#', data-toggle='dropdown')
+            | Pessoas
+            span.seta-dropdown-menu.hidden-xs
+            b.caret
+          ul.dropdown-menu
+            li
+              .col-sm-3
+                p.title-dropdown Senador
+                ul.lista-dropdown
+                  li: a(href="#") Dados cadastrais
+                  li: a(href="#") Dependentes
+                  li: a(href="#") Direitos e concessões
+                  li: a(href="#") Gabinetes e comissões
+                  li: a(href="#") Pagamento e remuneração
+                  li: a(href="#") Saúde e previdência
+                  li: a(href="#") Formulários
+              .col-sm-3
+                p.title-dropdown Servidor Efetivo
+                ul.lista-dropdown
+                  li: a(href="#") Carreira
+                  li: a(href="#") Dados cadastrais
+                  li: a(href="#") Dependentes
+                  li: a(href="#") Deveres e proibições
+                  li: a(href="#") Direitos e concessões
+                  li: a(href="#") Movimentações
+                  li: a(href="#") Pagamento e remuneração
+                  li: a(href="#") Saúde e previdência
+                  li: a(href="#") Formulários
+              .col-sm-3
+                p.title-dropdown Servidor Comissionado
+                ul.lista-dropdown
+                  li: a(href="#") Admissão
+                  li: a(href="#") Dados cadastrais
+                  li: a(href="#") Dependentes
+                  li: a(href="#") Deveres e proibições
+                  li: a(href="#") Direitos e concessões
+                  li: a(href="#") Movimentações
+                  li: a(href="#") Pagamento e remuneração
+                  li: a(href="#") Saúde e previdência
+                  li: a(href="#") Formulários
+              .col-sm-3
+                p.title-dropdown Servidor Aposentado
+                ul.lista-dropdown
+                  li: a(href="#") Dados cadastrais
+                  li: a(href="#") Dependentes
+                  li: a(href="#") Direitos e deveres
+                  li: a(href="#") Saúde e previdência
+                  li: a(href="#") Formulários
+              .col-sm-3.col-sm-offset-9
+                p Outros
+                ul.lista-dropdown
+                  li: a(href="#") Terceirizado (viagem)
+                  li: a(href="#") Colaborador eventual (viagem)
+        li.dropdown.yamm-fw
+          a.dropdown-toggle(href='#', data-toggle='dropdown')
+            | Saúde
+            span.seta-dropdown-menu.hidden-xs
+            b.caret
+          ul.dropdown-menu
+            li
+              .col-sm-3
+                p.title-dropdown Plano de Saúde
+                ul.lista-dropdown
+                  li: a(href="#") Rede Credenciada
+                  li: a(href="#") Carteira provisória
+                  li: a(href="#") Regulamento
+                  li: a(href="#") Prestação de contas
+                  li: a(href="#") Formulários
+              .col-sm-4
+                p.title-dropdown Programas
+                ul.lista-dropdown
+                  li: a(href="#") Atenção ao Uso de Álcool e Drogas (Progad)
+                  li: a(href="#") Ser Saudável
+        li.dropdown.yamm-fw
+          a.dropdown-toggle(href='#', data-toggle='dropdown')
+            | Educação
+            span.seta-dropdown-menu.hidden-xs
+            b.caret
+          ul.dropdown-menu
+            li
+              .col-sm-3
+                p.title-dropdown Cursos
+                ul.lista-dropdown
+                  li: a(href="#") Cursos Online
+                  li: a(href="#") Cursos Presenciais
+                  li: a(href="#") Eventos Educacionais
+                  li: a(href="#") Pós - Graduação
+              .col-sm-3
+                p.title-dropdown Gestão
+                ul.lista-dropdown
+                  li: a(href="#") Programa Capacita
+                  li: a(href="#") Seleção de Colaboradores
+              .col-sm-3
+                p.title-dropdown Informações
+                ul.lista-dropdown
+                  li: a(href="#") Legislação
+                  li: a(href="#") Perguntas Frequentes
+                  li: a(href="#") Formulários
+              .col-sm-3
+                p.title-dropdown Páginas de Apoio
+                ul.lista-dropdown
+                  li: a(href="#") Bases de dados externas
+                  li: a(href="#") Biblioteca
+                  li: a(href="#") Livraria
+                  li: a(href="#") Publicações
+              .col-sm-4
+                p.title-dropdown Programas
+                ul.lista-dropdown
+                  li: a(href="#") Desenvolvimento de Equipes de Trabalho
+                  li: a(href="#") Formação Gerencial
+                  li: a(href="#") Orientação Financeira
+                  li: a(href="#") Preparação para Aposentadoria (PPA)      
+              .col-sm-3
+                p.title-dropdown Solicitações
+                ul.lista-dropdown
+                  li: a(href="#") Adicional de Especialização
+                  li: a(href="#") Capacitação Externa
+                  li: a(href="#") Horário de Estudante
+                  li: a(href="#") Licença Capacitação     
+        li.dropdown.yamm-fw
+          a.dropdown-toggle(href='#', data-toggle='dropdown')
+            | Notícias
+            span.seta-dropdown-menu.hidden-xs
+            b.caret
+          ul.dropdown-menu
+            li
+              .col-sm-3
+                p.title-dropdown Mídia interna
+                ul.lista-dropdown
+                  li: a(href="#") Notícias da Intranet
+                  li: a(href="#") Comunicados
+              .col-sm-3
+                p.title-dropdown Mídia Externa
+                ul.lista-dropdown
+                  li: a(href="#") Diário Oficial da União
+                  li: a(href="#") Jornais
+                  li: a(href="#") Revistas
+                  li: a(href="#") Senado na Mídia
+        li.dropdown.yamm-fw
+          a.dropdown-toggle(href='#', data-toggle='dropdown')
+            | Administração
+            span.seta-dropdown-menu.hidden-xs
+            b.caret
+          ul.dropdown-menu
+            li
+              .col-sm-3
+                p.title-dropdown Estrutura administrativa
+                ul.lista-dropdown
+                  li: a(href="#") Fundamentação
+                  li: a(href="#") Organograma
+                  li: a(href="#") Diretores e Coordenadores
+              .col-sm-3
+                p.title-dropdown Governaça corporativa
+                ul.lista-dropdown
+                  li: a(href="#") Agenda estratégica
+                  li: a(href="#") Plano de Contratações
+                  li: a(href="#") Escritório de Governança Corporativa
+                  li: a(href="#") Mapa estratégico
+              .col-sm-3
+                p.title-dropdown Plan. Orçamentário 2016
+                ul.lista-dropdown
+                  li: a(href="#") Cronograma
+                  li: a(href="#") Manuais e modelos
+                  li: a(href="#") Perguntas e Respostas
+              .col-sm-3
+                p.title-dropdown Fontes de Consulta
+                ul.lista-dropdown
+                  li: a(href="#") Regulamento Administrativo
+                  li: a(href="#") Regimento Interno
+                  li: a(href="#") Manuais técnicos e guias
+                  li: a(href="#") Busca no NADM
+                  li: a(href="#") Constituição Federal
+                  li: a(href="#") Lei 8.112/1990
+                  li: a(href="#") Lei 12.527/2011
+              .col-sm-3
+                p.title-dropdown Contratações
+                ul.lista-dropdown
+                  li: a(href="#") Orientações gerais PB/TR
+                  li: a(href="#") Ato da Diretoria-Geral nº 9/2015
+                  li: a(href="#") Relação de Objetos contratáveis
+                  li: a(href="#") Modelos de PB/TR
+                  li: a(href="#") Consultoria e Palestras
+                  li: a(href="#") Perguntas e Respostas
+                  li: a(href="#") Legislação
+              .col-sm-3
+                p.title-dropdown Programas
+                ul.lista-dropdown
+                  li: a(href="#") Acompanhamento Funcional (PAF)
+                  li: a(href="#") Diginidade e Respeito no Trabalho
+                  li: a(href="#") Integrar
+                  li: a(href="#") Pesquisa de Clima Organizacional
+                  li: a(href="#") Pró-Equidade
+                  li: a(href="#") Senado Verde
+
