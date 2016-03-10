@@ -338,15 +338,22 @@
 
 
 //////////////////// DEFAULT CONTROLS SIDEBAR
- 
+@keyframes sidebar-animation{
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
+
 #toggle-menu:checked + .sidebar-intranet {
   left:0;
   opacity: 1;
 }
 .sidebar-intranet {
-  transition: all 0.2s ease-out;
+  animation-name:sidebar-animation;
+  animation-duration:0.5s;
 }
 #toggle-menu:not(:checked) + .sidebar-intranet {
+  display: none;
   left: -320px;
   opacity: 0;
   bottom: 50px;
