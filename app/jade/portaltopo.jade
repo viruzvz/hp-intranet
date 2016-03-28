@@ -15,11 +15,20 @@
     .PortalTopo-tools
 
     .PortalTopo-busca.collapse
-      form(role='search')
+      form.form-signin(role='search')
+        label.radio-inline
+          input#inlineRadio1.radios-yamm-fs(type='radio', name='inlineRadioOptions', value='option1', required)
+          |  Pessoas
+        label.radio-inline
+          input#inlineRadio2.radios-yamm-fs(type='radio', name='inlineRadioOptions', value='option2', required)
+          |  Conteúdo
+        label.radio-inline
+          input#inlineRadio3.radios-yamm-fs(type='radio', name='inlineRadioOptions', value='option3', required)
+          |  Ôrgãos
         .input-group
-          input.form-control(type='text', name='SearchableText', autocomplete='off')
+          input.form-control.required(type='text', name='SearchableText', autocomplete='off', required)
           .input-group-btn
-            button.btn.btn-default.js-mainsearch(type='submit') Buscar
+            button.btn.btn-default(type='submit') Buscar
 
     .clearfix
 
@@ -30,7 +39,7 @@
           a.dropdown-toggle(href='#', data-toggle='dropdown')
             | Pessoas
             span.seta-dropdown-menu.hidden-xs
-            b.caret
+
           ul.dropdown-menu
             li
               .col-sm-3
@@ -84,7 +93,7 @@
           a.dropdown-toggle(href='#', data-toggle='dropdown')
             | Saúde
             span.seta-dropdown-menu.hidden-xs
-            b.caret
+
           ul.dropdown-menu
             li
               .col-sm-3
@@ -104,7 +113,7 @@
           a.dropdown-toggle(href='#', data-toggle='dropdown')
             | Educação
             span.seta-dropdown-menu.hidden-xs
-            b.caret
+
           ul.dropdown-menu
             li
               .col-sm-3
@@ -150,7 +159,7 @@
           a.dropdown-toggle(href='#', data-toggle='dropdown')
             | Notícias
             span.seta-dropdown-menu.hidden-xs
-            b.caret
+
           ul.dropdown-menu
             li
               .col-sm-3
@@ -169,7 +178,7 @@
           a.dropdown-toggle(href='#', data-toggle='dropdown')
             | Administração
             span.seta-dropdown-menu.hidden-xs
-            b.caret
+
           ul.dropdown-menu
             li
               .col-sm-3

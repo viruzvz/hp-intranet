@@ -37,8 +37,27 @@
 
 }
 ///////// Acrecimos para intranet
+.radios-yamm-fs {
+  height: inherit !important; 
+} 
 .dropdown-toggle {
   color: #3e6892;
+  font-weight: bold;
+  &:after {
+    content:"";
+    position: absolute;
+    margin-right: 2px;
+    width: 0;
+    right: 0;
+    top:25px;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-top: 4px solid\9;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+  }
 }
 .title-dropdown {
   font-size:16px;
@@ -57,10 +76,6 @@
         &:hover{
           background-color: #f1f1f1;
         }
-        &:before {
-          content:"»";
-          padding-right: 8px;
-        }
       }
    }
 }
@@ -72,14 +87,12 @@
   z-index: 1010; 
   position: relative; 
   background: #f7f7f7; 
-  top: 36px;
-  right: -20px;
-  float: left;
+  left: 50%;
+  top:16px;
  } 
 .seta-dropdown-menu:after, 
 .seta-dropdown-menu:before { 
   bottom: 100%; 
-  left: 50%; 
   border: solid transparent; 
   content: " "; 
   height: 0; 

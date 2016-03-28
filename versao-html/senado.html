@@ -37,11 +37,20 @@
           </div>
           <div class="PortalTopo-tools"></div>
           <div class="PortalTopo-busca collapse">
-            <form role="search">
+            <form role="search" class="form-signin">
+              <label class="radio-inline">
+                <input id="inlineRadio1" type="radio" name="inlineRadioOptions" value="option1" required class="radios-yamm-fs"> Pessoas
+              </label>
+              <label class="radio-inline">
+                <input id="inlineRadio2" type="radio" name="inlineRadioOptions" value="option2" required class="radios-yamm-fs"> Conteúdo
+              </label>
+              <label class="radio-inline">
+                <input id="inlineRadio3" type="radio" name="inlineRadioOptions" value="option3" required class="radios-yamm-fs"> Ôrgãos
+              </label>
               <div class="input-group">
-                <input type="text" name="SearchableText" autocomplete="off" class="form-control">
+                <input type="text" name="SearchableText" autocomplete="off" required class="form-control required">
                 <div class="input-group-btn">
-                  <button type="submit" class="btn btn-default js-mainsearch">Buscar</button>
+                  <button type="submit" class="btn btn-default">Buscar</button>
                 </div>
               </div>
             </form>
@@ -51,7 +60,7 @@
         <div class="navbar navbar-default yamm Nav--principal">
           <div id="navbar-collapse-grid" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-              <li class="dropdown yamm-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Pessoas<span class="seta-dropdown-menu hidden-xs"></span><b class="caret"></b></a>
+              <li class="dropdown yamm-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Pessoas<span class="seta-dropdown-menu hidden-xs"></span></a>
                 <ul class="dropdown-menu">
                   <li>
                     <div class="col-sm-3">
@@ -114,7 +123,7 @@
                   </li>
                 </ul>
               </li>
-              <li class="dropdown yamm-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Saúde<span class="seta-dropdown-menu hidden-xs"></span><b class="caret"></b></a>
+              <li class="dropdown yamm-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Saúde<span class="seta-dropdown-menu hidden-xs"></span></a>
                 <ul class="dropdown-menu">
                   <li>
                     <div class="col-sm-3">
@@ -137,7 +146,7 @@
                   </li>
                 </ul>
               </li>
-              <li class="dropdown yamm-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Educação<span class="seta-dropdown-menu hidden-xs"></span><b class="caret"></b></a>
+              <li class="dropdown yamm-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Educação<span class="seta-dropdown-menu hidden-xs"></span></a>
                 <ul class="dropdown-menu">
                   <li>
                     <div class="col-sm-3">
@@ -194,7 +203,7 @@
                   </li>
                 </ul>
               </li>
-              <li class="dropdown yamm-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Notícias<span class="seta-dropdown-menu hidden-xs"></span><b class="caret"></b></a>
+              <li class="dropdown yamm-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Notícias<span class="seta-dropdown-menu hidden-xs"></span></a>
                 <ul class="dropdown-menu">
                   <li>
                     <div class="col-sm-3">
@@ -216,7 +225,7 @@
                   </li>
                 </ul>
               </li>
-              <li class="dropdown yamm-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Administração<span class="seta-dropdown-menu hidden-xs"></span><b class="caret"></b></a>
+              <li class="dropdown yamm-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Administração<span class="seta-dropdown-menu hidden-xs"></span></a>
                 <ul class="dropdown-menu">
                   <li>
                     <div class="col-sm-3">
@@ -294,22 +303,22 @@
             <div class="row noticias">
               <div class="col-md-12 spacer-content--lg"><a href="#"><img src="img/banner.jpg" alt="Curso de Pós-Graduação em Direito Legislativo. Inscreva-se para o processo seletivo até 17/4" class="img-responsive"></a></div>
               <div class="col-md-8"><a href="#">
-                  <figure><img src="img/slide/senado1.jpg" alt="Matéria" class="img-responsive">
-                    <figcaption><small>15/12/2015, 10h05</small>
-                      <h1 class="noticias-header1"><strong>Senado participa de programa para a formação e a inserção de jovens no mercado de trabalho</strong></h1>
+                  <figure><img src="img/noticias/manchete.jpg" alt="Manchete" class="img-responsive">
+                    <figcaption><small>18/03/2016, 10h05</small>
+                      <h1 class="noticias-header1"><strong>Elisa Lucinda defende direitos da mulher em apresentação no Auditório Petrônio Portella</strong></h1>
                     </figcaption>
                   </figure></a>
                 <div class="row">
                   <div class="col-md-6"><a href="#">
-                      <figure><img src="img/slide/senado2.jpg" alt="Matéria" class="img-responsive">
-                        <figcaption><small>15/12/2015, 9h42</small>
-                          <h2 class="noticias-header2"><strong>Presentes do Papai Noel dos Correios podem ser entregues até a próxima segunda-feira</strong></h2>
+                      <figure><img src="img/noticias/submanchete.jpg" alt="Submanchete" class="img-responsive">
+                        <figcaption><small>18/03/2016, 9h42</small>
+                          <h2 class="noticias-header2"><strong>Publicadas alterações na Matriz de Correlação de Áreas do Conhecimento de interesse do Senado</strong></h2>
                         </figcaption>
                       </figure></a></div>
                   <div class="col-md-6"><a href="#">
-                      <figure><img src="img/slide/senado3.jpg" alt="Matéria" class="img-responsive">
-                        <figcaption><small>15/12/2015, 9h42</small>
-                          <h2 class="noticias-header2"><strong>Presentes do Papai Noel dos Correios podem ser entregues até a próxima segunda-feira</strong></h2>
+                      <figure><img src="img/noticias/submanchete2.jpg" alt="Submanchete" class="img-responsive">
+                        <figcaption><small>18/03/2016, 8h11</small>
+                          <h2 class="noticias-header2"><strong>Mulheres ocupam 24,5% dos cargos de direção e chefia de assessoria no Senado</strong></h2>
                         </figcaption>
                       </figure></a></div>
                 </div>
@@ -317,26 +326,26 @@
               <div class="col-md-4 CutHere CutHere--xl">
                 <div class="u-spacer--xl"><a href="#">
                     <figure><img src="img/slide/senado4.jpg" alt="Matéria" class="img-responsive hide">
-                      <figcaption><small>15/12/2015, 9h42</small>
-                        <p>Presentes do Papai Noel dos Correios podem ser entregues até a próxima segunda-feira</p>
+                      <figcaption><small>17/03/2016, 13h42</small>
+                        <p>SIS reembolsará exames de dengue e chicungunha para beneficiários do plano de saúde</p>
                       </figcaption>
                     </figure></a></div>
                 <div class="u-spacer--xl"><a href="#">
-                    <figure><img src="img/slide/senado4.jpg" alt="Matéria" class="img-responsive">
-                      <figcaption><small>15/12/2015, 9h42</small>
-                        <p>Presentes do Papai Noel dos Correios podem ser entregues até a próxima segunda-feira</p>
-                      </figcaption>
-                    </figure></a></div>
-                <div class="u-spacer--xl"><a href="#">
-                    <figure><img src="img/materia1.gif" alt="Matéria" class="img-responsive hide">
-                      <figcaption><small>15/12/2015, 9h42</small>
-                        <p>Presentes do Papai Noel dos Correios podem ser entregues até a próxima segunda-feira</p>
+                    <figure><img src="img/noticias/destaque.jpg" alt="Destaque" class="img-responsive">
+                      <figcaption><small>17/03/2016, 12h42</small>
+                        <p>Crepes, sanduíches, sushi e yakissoba estão entre as opções oferecidas pelos food trucks</p>
                       </figcaption>
                     </figure></a></div>
                 <div class="u-spacer--xl"><a href="#">
                     <figure><img src="img/materia1.gif" alt="Matéria" class="img-responsive hide">
-                      <figcaption><small>15/12/2015, 9h42</small>
-                        <p>Presentes do Papai Noel dos Correios podem ser entregues até a próxima segunda-feira</p>
+                      <figcaption><small>17/03/2016, 11h42</small>
+                        <p>ILB seleciona professor para disciplina Execução Orçamentária e Financeira pelo banco de talentos</p>
+                      </figcaption>
+                    </figure></a></div>
+                <div class="u-spacer--xl"><a href="#">
+                    <figure><img src="img/materia1.gif" alt="Matéria" class="img-responsive hide">
+                      <figcaption><small>17/03/2016, 10h42</small>
+                        <p>Administração reforça fiscalização do uso de impressoras para evitar desperdício</p>
                       </figcaption>
                     </figure></a></div>
               </div>
@@ -371,37 +380,49 @@
               <!-- Wrapper for slides-->
               <div role="listbox" class="carousel-inner carousel-widget--inner">
                 <div class="item active">
-                  <p class="carousel-widget--date"><small>03/03/2016, quinta-feira</small></p>
-                  <div class="carousel-caption carousel-widget--caption"><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore </a></div>
+                  <p class="carousel-widget--date"><small>17/03/2016, quinta-feira</small></p>
+                  <div class="carousel-caption carousel-widget--caption"><a href="#">O Serviço de Conservação e Limpeza informa que haverá nova dedetização e desratização nas dependências do Senado Federal nos próximos dias. As dedetizações ocorrem trimestralmente. A partir desta quarta-feira (16) será iniciado pelas copas, com aplicação(Leia mais...).</a></div>
                 </div>
                 <div class="item">
-                  <p class="carousel-widget--date"><small>03/03/2016, quinta-feira</small></p>
-                  <div class="carousel-caption carousel-widget--caption"><a href="#">bbbbbbbb</a></div>
+                  <p class="carousel-widget--date"><small>18/03/2016, quinta-feira</small></p>
+                  <div class="carousel-caption carousel-widget--caption"><a href="#">A Safin/Contab informa aos gestores de contratosque, em obediência à Instrução Normativa RFB nº 1.234/2012, os comprovantes de retenção de impostos incidentes sobre os pagamentos efetuados aos fornecedores do Senado Federal em 2015 estão disponíveis no endereço V:\SAFIN\COMPROVANTE ANUAL DE RETENÇÃO DE IR. (Saiba mais...)</a></div>
                 </div>
                 <div class="item">
-                  <p class="carousel-widget--date"><small>03/03/2016, quinta-feira</small></p>
-                  <div class="carousel-caption carousel-widget--caption"><a href="#">cccccccc</a></div>
+                  <p class="carousel-widget--date"><small>18/03/2016, quinta-feira</small></p>
+                  <div class="carousel-caption carousel-widget--caption"><a href="#">O Prodasen dará início a um levantamento dos produtos instalados nos computadores do Senado Federal. Os objetivos são identificar os softwares instalados, conhecer sobre sua utilização e manter a regularidade de suas licenças. (Leia mais...)</a></div>
                 </div>
               </div>
             </div>
             <div class="agenda-widget spacer-widgets--lg">
               <h3 class="agenda-widget--header">AGENDA</h3>
-              <p class="agenda-widget--date"><small>03/03/2016, quinta-feira</small></p>
               <div class="agenda-widget--caption">
                 <div class="nano">
                   <div class="nano-content">
                     <ul class="agenda-widget--item">
-                      <li><a href="#">No começo do século passado, o Brasil assistia a uma caçada inédita e implacável ao Aedes aegypti. </a>
+                      <li><a href="#"> <strong>De 17/3 a 23/3 - Pêssankas – ovos de Páscoa - tradição ucraniana no Brasil</strong></a>
                         <p><small>Horário: 19h</small></p>
-                        <p><small>Local: Petronio Portella</small></p>
+                        <p><small>Local: Biblioteca Acadêmico Luiz Viana Filho, no Senado Federal</small></p>
                       </li>
-                      <li><a href="#">O Plenário foi palco de intenso debate entre senadores da oposição e da base do governo sobre o depoimento do ex-presidente Lula à Operação Lava Jato, na última sexta (4).</a>
+                      <li><a href="#"> <strong>21/3 - Sessão Especial destinada a homenagear o Dia Nacional do DeMolay e os 12 anos do Supremo Conselho da Ordem DeMolay para a República Federativa do Brasil</strong></a>
                         <p><small>Horário: 2h</small></p>
-                        <p><small>Local: Petronio Portella</small></p>
+                        <p><small>Local: Plenário do Senado Federal</small></p>
                       </li>
-                      <li><a href="#">O senador Ricardo Ferraço apresentou nesta terça (8), na Comissão de Assuntos Econômicos, substitutivo a proposta que visa tornar mais realista o Orçamento da União.</a>
+                      <li><a href="#"> <strong>21/3 - Seminário “Síndrome de Down: 21 horas pela inclusão”.</strong></a>
                         <p><small>Horário: 9h</small></p>
-                        <p><small>Local: Petronio Portella</small></p>
+                        <p><small>Local: Auditório Petrônio Portella</small></p>
+                      </li>
+                      <li><a href="#"> <strong>De 21/3 a 25/3 - Exposição "Educação: direito de todos"</strong></a>
+                        <p><small>Local: Praça das Abelhas</small></p>
+                      </li>
+                      <li><a href="#"> <strong>De 21/3 a 1/4 - Exposição "Bolhas 2 - Viagem ao fundo do mar"</strong></a>
+                        <p><small>Local: Espaço Ivandro Cunha Lima</small></p>
+                      </li>
+                      <li><a href="#"> <strong>22/3 - Debate - Integração terra-água: da teoria à pratica</strong></a>
+                        <p><small>Horário: 9h</small></p>
+                        <p><small>Local: Plenário 5 da Câmara dos Deputados</small></p>
+                      </li>
+                      <li><a href="#"> <strong>De 22/3 a 23/3 - “Síndrome de down: 21 horas pela inclusão”. Para temas e horários busque www.interlegis.leg.br/eventos Auditório Petrônio Portella</strong></a>
+                        <p><small>Local: Auditório Petrônio Portella</small></p>
                       </li>
                     </ul>
                   </div>
@@ -410,18 +431,15 @@
               <div class="agenda-widget--footer text-right"><a href="#">AGENDA INSTITUCIONAL<span class="glyphicon glyphicon-chevron-right"></span></a></div>
             </div>
             <div class="Stransparente-widget spacer-widgets--lg">
-              <h3 class="Stransparente-widget--header"><a href="#" title="Veja mais"><img src="img/senado-transparente.jpg"><span class="pull-right glyphicon glyphicon-plus"></span></a></h3>
-              <div class="Stransparente-widget--caption"><a href="#"><img src="img/slide/senado5.jpg" alt="Senado Transparente" class="img-responsive"></a>
-                <p>Senado começa a implantar seu plano de gestão sustentável</p>
+              <h3 class="Stransparente-widget--header"><a href="#" title="Veja mais"><img src="img/senado-transparente.jpg" alt="Senado Transparente"><span class="pull-right glyphicon glyphicon-plus"></span></a></h3>
+              <div class="Stransparente-widget--caption"><a href="#"><img src="img/noticias/senado-transparente2.jpg" alt="Senado Transparente" class="img-responsive"></a>
+                <p>Programa de Visitação do Congresso é reconhecido pelo TripAdvisor</p>
               </div>
             </div>
             <div class="video-widget spacer-widgets--lg">
               <h3 class="video-widget--header">VÍDEOS<a href="#" title="Veja mais"><span class="pull-right glyphicon glyphicon-plus"></span></a></h3>
-              <div class="video-widget--caption">
-                <div class="embed-responsive embed-responsive-16by9 video-widget-embed">
-                  <iframe src="https://www.youtube.com/embed/lIX0Bxgx4E0" class="embed-responsive-item"></iframe>
-                </div>
-                <p>Conheça as cordenações de pesquisa e informações legislativas</p>
+              <div class="video-widget--caption"><a href="#"><img src="img/noticias/videos.jpg" alt="Senado Transparente" class="img-responsive"></a>
+                <p>Ligado no Senado: Conheça a Coordenação de Elaboração de Diários</p>
               </div>
             </div>
           </div>
@@ -501,7 +519,7 @@
         </div>
       </div>
     </div>
-    <div class="sidebar-intranet--resumed sidebar-intranet hidden-sm hidden-xs">
+    <div class="sidebar-intranet--resumed sidebar-intranet hidden-sm hidden-xs hidden-md">
       <div class="content-topo">
         <label for="toggle-menu">
           <spam class="glyphicon glyphicon-forward"></spam>
@@ -602,7 +620,7 @@
         </ul>
       </div>
     </div>
-    <div class="sidebar-intranet--query sidebar-intranet visible-sm visible-xs">
+    <div class="sidebar-intranet--query sidebar-intranet visible-sm visible-xs visible-md">
       <div class="content-topo hide">
         <label for="toggle-menu">
           <spam class="glyphicon glyphicon-forward"></spam>
@@ -616,7 +634,7 @@
           <li class="add-color4"><a href="#" class="link-slyes"> <img src="img/sidebar-intranet/interessantes.svg" alt="SERVIÇOS"></a></li>
           <li class="add-color5"><a href="#" class="link-slyes"> <img src="img/sidebar-intranet/classificados.svg" alt="CLASSIFICADOS"></a></li>
           <li><a href="#" class="link-slyes"> 
-              <label for="toggle-menu"><img src="img/sidebar-intranet/hamburger.svg" alt="Menu completo"></label></a></li>
+              <label for="toggle-menu" class="sidebar-intranet--label"><img src="img/sidebar-intranet/hamburger.svg" alt="Menu completo"></label></a></li>
         </ul>
       </div>
     </div>

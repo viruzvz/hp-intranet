@@ -308,6 +308,10 @@
 }
 
 /////////////////////// SIDEBAR-INTRANET -- QUERY (RESPONSIVO)
+.sidebar-intranet--label {
+  display: block;
+  cursor: pointer;
+}
 .sidebar-intranet--query {
   position: fixed;
   z-index: 10000;
@@ -381,6 +385,9 @@
 //////////////////// MEDIA QUERY SIDEBAR 
 
 @media (max-width: @screen-sm-max) {
+    body {
+    margin-bottom: 49px;
+  }
     .sidebar-intranet--content {
       width: 100%;
     }
