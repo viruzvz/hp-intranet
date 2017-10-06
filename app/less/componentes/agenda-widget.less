@@ -48,10 +48,14 @@
       display:block;
     }
     p {
-      margin: 0;
+      
     }
     a {
-      color: @colorAgenda-widget--primary;
+      color: #666;
+      &:hover {
+        color:@colorAgenda-widget--primary !important;
+        .badge {background-color: @colorAgenda-widget--primary !important;}
+      }
     }
 }
 .agenda-widget--footer {

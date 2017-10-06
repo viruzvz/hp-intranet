@@ -5,6 +5,7 @@
 @color3:#b9d3fe;
 @color4:#8BD0E2;
 @color5:#acb3f5;
+@color6:#d4d9f4;
 @link-color--default:orange;
 /////////////////////// SIDEBAR-INTRANET -- CONTENT (ABERTO)
 
@@ -87,7 +88,9 @@
   }
   .add-color5 {
     background-color: @color5 !important;
-    margin-bottom: 0;
+  }
+  .add-color6 {
+    background-color: @color6 !important;
   }
   a {
     float: left;
@@ -268,6 +271,7 @@
 }
 .content-menu--styled01 {
   clear: both;
+  margin-bottom: 10px;
   .content-menu--title {
     background-color: @color5;
     color: #003362;
@@ -277,6 +281,20 @@
     margin-bottom: 10px;
     a {
       background-color: @color5;
+    }
+  }
+}
+.content-menu--styled02 {
+  clear: both;
+  .content-menu--title {
+    background-color: @color6;
+    color: #003362;
+  }
+  .content-apps--noicons {
+    border-bottom: none;
+    margin-bottom: 10px;
+    a {
+      background-color: @color6;
     }
   }
 }
@@ -306,7 +324,6 @@
 .fix-content--padding {
   padding: 2px;
 }
-
 /////////////////////// SIDEBAR-INTRANET -- QUERY (RESPONSIVO)
 .sidebar-intranet--label {
   display: block;
@@ -396,4 +413,17 @@
       width: 100% !important;
       height: 90% !important;
     }
+}
+
+
+
+
+//////////////////// Novas classes de ajuda, infelizmente não foi tao bem pensado essa barra e precisa de fix
+
+.fix-margin {
+  margin: 0!important;
+}
+
+.width-query {
+  width: 14.1% !important;
 }
